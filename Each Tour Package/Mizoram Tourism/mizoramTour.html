@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorthEast Horizon</title>
+
+    <link rel="stylesheet" href="../../nestyle.css">
+    <link rel="stylesheet" href="mizoramTour.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dcb56fa4e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+    <div class="ne-h-explore-main-bg">
+        <!--NE Horizon Mizoram Tour Page Heading and Banner-->
+        <h1 class="ne-h-main-headers text-center p-3">Mizoram</h1>
+        <div class="ne-h-me-main-banner-div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-6 mb-3 order-2 order-xl-1 d-flex flex-column justify-content-xl-center">
+                        <div class="ne-h-tour-section-banner-para p-3 text-center text-xl-left">
+                            Mizoram, known as the "Land of the Highlanders," is a picturesque state nestled in the northeastern part of India. 
+                            Renowned for its lush green hills, cascading waterfalls, and rich cultural heritage, Mizoram offers a serene retreat 
+                            for nature enthusiasts and cultural aficionados alike. From its pristine landscapes to its warm hospitality and vibrant
+                            festivals, Mizoram promises an unforgettable journey through its unspoiled beauty and traditional charm.
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6 mb-3 order-1 order-xl-2">
+                        <div class="ne-h-tour-section-banner-image p-3">
+                            <img class="ne-h-tour-main-image rounded" src="https://i.pinimg.com/564x/b4/c9/5e/b4c95e6e37bdcf722d80d64ad837b9c9.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--NE Horizon Arunchal Tour Page Package Selection Section-->
+        <h1 class="ne-h-main-headers text-center p-3">Tour Packages</h1>
+        <div class="ne-h-tour-package-selection-div d-flex flex-row p-3">
+            <button id="neHorizonMiP1" class="ne-h-tour-select-btn-effect p-3 shadow">Wildlife Adventure</button>
+            <button id="neHorizonMiP2" class="ne-h-tour-package-btn p-3 shadow">Cultural Heritage</button>
+            <button id="neHorizonMiP3" class="ne-h-tour-package-btn p-3 shadow">Historical Exploration</button>
+            <button id="neHorizonMiP4" class="ne-h-tour-package-btn p-3 shadow">Adventure & Trekking</button>
+            <button id="neHorizonMiP5" class="ne-h-tour-package-btn p-3 shadow">Spiritual Journey</button>
+            <button id="neHorizonMiP6" class="ne-h-tour-package-btn p-3 shadow">Scenic & Leisure</button>
+        </div>
+
+        <div id="neHorizonTourMiT1" class="ne-h-tour-select-card-effect mx-3 rounded">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-text p-3">
+                            <ul class="p-3">
+                                <h1 class="ne-h-tour-details-head">
+                                <span id="neLogo">4</span> Days <span id="neLogo">5</span> Nights <span id="neLogo">Wildlife</span> Tour    
+                                <i class="fa-solid fa-arrow-right pl-2"></i>
+                                </h1>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Highlights:</span> Dampa Tiger Reserve, Murlen National Park, Vantawng Falls.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Activities:</span> Wildlife spotting, bird watching tours, trekking, nature walks.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Wildlife:</span> Tigers, leopards, hornbills, rare orchids.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Accomodations:</span> Wildlife lodges, forest resorts.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Experience:</span> Explore Mizoram’s diverse flora and fauna in its protected reserves.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-visual d-flex flex-row justify-content-center py-5">
+                            <div class="ne-h-tour-p-card">
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-1" id="Ne-h-mi-t1-i1"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-2" id="Ne-h-mi-t1-i2"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-3" id="Ne-h-mi-t1-i3"></div>
+                            </div>
+                        </div>
+                        <div class="text-center p-3">
+                            <a href="../Subsmission Form Page/bookTourPage.html">
+                                <button class="ne-h-tour-package-book-btn">Book Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="neHorizonTourMiT2" class="ne-h-tour-select-card-effect mx-3 rounded d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-text p-3">
+                            <ul class="p-3">
+                                <h1 class="ne-h-tour-details-head">
+                                <span id="neLogo">4</span> Days <span id="neLogo">5</span> Nights <span id="neLogo">Cultural</span> Tour    
+                                <i class="fa-solid fa-arrow-right pl-2"></i>
+                                </h1>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Highlights:</span> Aizawl, Lunglei, Champhai.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Activities:</span> Visit traditional villages, witness Mizo dances, attend local festivals.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Experience:</span> Immerse yourself in the rich culture and traditions of the Mizo people.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Accomodations:</span> Homestays, cultural guesthouses.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Cuisine:</span> Taste authentic Mizo cuisine and local delicacies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-visual d-flex flex-row justify-content-center py-5">
+                            <div class="ne-h-tour-p-card">
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-1" id="Ne-h-mi-t2-i1"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-2" id="Ne-h-mi-t2-i2"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-3" id="Ne-h-mi-t2-i3"></div>
+                            </div>
+                        </div>
+                        <div class="text-center p-3">
+                            <a href="../Subsmission Form Page/bookTourPage.html">
+                                <button class="ne-h-tour-package-book-btn">Book Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="neHorizonTourMiT3" class="ne-h-tour-select-card-effect mx-3 rounded d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-text p-3">
+                            <ul class="p-3">
+                                <h1 class="ne-h-tour-details-head">
+                                <span id="neLogo">4</span> Days <span id="neLogo">5</span> Nights <span id="neLogo">Historical</span> Tour    
+                                <i class="fa-solid fa-arrow-right pl-2"></i>
+                                </h1>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Highlights:</span> Mizoram State Museum, Tamdil Lake, Phawngpui Peak.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Activities:</span> Guided tours of historical sites, exploration of ancient monuments.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Experience:</span> Discover Mizoram’s history and heritage through its archaeological sites.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Accomodations:</span> Comfortable hotels, heritage stays.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Insight:</span> Learn about Mizoram’s cultural evolution and historical landmarks.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-visual d-flex flex-row justify-content-center py-5">
+                            <div class="ne-h-tour-p-card">
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-1" id="Ne-h-mi-t3-i1"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-2" id="Ne-h-mi-t3-i2"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-3" id="Ne-h-mi-t3-i3"></div>
+                            </div>
+                        </div>
+                        <div class="text-center p-3">
+                            <a href="../Subsmission Form Page/bookTourPage.html">
+                                <button class="ne-h-tour-package-book-btn">Book Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="neHorizonTourMiT4" class="ne-h-tour-select-card-effect mx-3 rounded d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-text p-3">
+                            <ul class="p-3">
+                                <h1 class="ne-h-tour-details-head">
+                                <span id="neLogo">4</span> Days <span id="neLogo">5</span> Nights <span id="neLogo">Adventure</span> Tour    
+                                <i class="fa-solid fa-arrow-right pl-2"></i>
+                                </h1>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Highlights:</span>  Blue Mountain (Phawngpui), Vantawng Waterfall, Hmuifang Hills.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Activities:</span>  Trekking, rock climbing, rappelling, camping, river rafting (if available).</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Experience:</span> Thrilling adventures amidst Mizoram’s rugged terrain and scenic landscapes.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Accomodations:</span> Adventure camps, eco-resorts.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Guides:</span>  Experienced adventure guides and instructors.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-visual d-flex flex-row justify-content-center py-5">
+                            <div class="ne-h-tour-p-card">
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-1" id="Ne-h-mi-t4-i1"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-2" id="Ne-h-mi-t4-i2"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-3" id="Ne-h-mi-t4-i3"></div>
+                            </div>
+                        </div>
+                        <div class="text-center p-3">
+                            <a href="../Subsmission Form Page/bookTourPage.html">
+                                <button class="ne-h-tour-package-book-btn">Book Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="neHorizonTourMiT5" class="ne-h-tour-select-card-effect mx-3 rounded d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-text p-3">
+                            <ul class="p-3">
+                                <h1 class="ne-h-tour-details-head">
+                                <span id="neLogo">4</span> Days <span id="neLogo">5</span> Nights <span id="neLogo">Spiritual</span> Tour    
+                                <i class="fa-solid fa-arrow-right pl-2"></i>
+                                </h1>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Highlights:</span> Solomon’s Temple, Baptist Church, Palak Lake.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Activities:</span> Temple visits, meditation retreats, spiritual discourses, nature walks.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Experience:</span> Tranquil and spiritual experiences in Mizoram’s serene environments.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Accomodations:</span> Monastery stays, spiritual retreat centers.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Atmosphere:</span>  Peaceful settings ideal for introspection and meditation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-visual d-flex flex-row justify-content-center py-5">
+                            <div class="ne-h-tour-p-card">
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-1" id="Ne-h-mi-t5-i1"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-2" id="Ne-h-mi-t5-i2"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-3" id="Ne-h-mi-t5-i3"></div>
+                            </div>
+                        </div>
+                        <div class="text-center p-3">
+                            <a href="../Subsmission Form Page/bookTourPage.html">
+                                <button class="ne-h-tour-package-book-btn">Book Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="neHorizonTourMiT6" class="ne-h-tour-select-card-effect mx-3 rounded d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-text p-3">
+                            <ul class="p-3">
+                                <h1 class="ne-h-tour-details-head">
+                                <span id="neLogo">4</span> Days <span id="neLogo">5</span> Nights <span id="neLogo">Scenic</span> Tour    
+                                <i class="fa-solid fa-arrow-right pl-2"></i>
+                                </h1>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Highlights:</span> Phawngpui National Park, Palak Wildlife Sanctuary, Tamdil Lake.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Activities:</span> Nature photography, boating, picnics, leisurely walks.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Experience:</span> Relaxation amidst Mizoram’s natural beauty and tranquil surroundings.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Accomodations:</span> Boutique resorts, scenic lodges.</li>
+                                <li class="ne-h-tour-details-items p-2"><span id="neLogo">Cuisine:</span> Spa treatments, local craft shopping.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 mb-3">
+                        <div class="ne-h-tour-details-visual d-flex flex-row justify-content-center py-5">
+                            <div class="ne-h-tour-p-card">
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-1" id="Ne-h-mi-t6-i1"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-2" id="Ne-h-mi-t6-i2"></div>
+                                <div class="ne-h-tour-p-child ne-h-tour-p-card-3" id="Ne-h-mi-t6-i3"></div>
+                            </div>
+                        </div>
+                        <div class="text-center p-3">
+                            <a href="../Subsmission Form Page/bookTourPage.html">
+                                <button class="ne-h-tour-package-book-btn">Book Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="mizoramTour.js"></script>
+</body>
+</html>

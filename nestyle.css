@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+
+/*NE Horizon navbar and Banner Section Styling*/
+.ne-h-main-home-bg{
+    background-image: url('https://wallpapercave.com/wp/wp4511355.jpg');
+    height: 555px;
+    background-size: cover;
+    background-color: rgba(110, 127, 128, 0.5);
+}
+
+.ne-h-navbar{
+  background-image: linear-gradient(#051405, #000000);
+  height: 60px;
+}
+
+#neLogo{
+    font-size: 22px;
+    font-family: "Lilita One", sans-serif;
+    color: #053a25;
+}
+
+#navLink1{
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+}
+
+#navLink2{
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+}
+
+#navLink3{
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+}
+
+#navLink4{
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+}
+
+#navLink5{
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+}
+
+.ne-h-home-sub-head{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.ne-h-home-main-head{
+    font-size: 44px;
+    font-family: "Rye", serif;
+}
+
+.ne-h-home-btn{
+    background-color: #053a25;
+    color: #F0F8FF;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+    height: 33px;
+    width: 111px;
+    border-radius: 5px;
+}
+
+/*NE Horizon Main Sections Headers Styling*/
+.ne-h-main-headers{
+    font-size: 33px;
+    font-family: "Rye", serif;
+    color: #F0F8FF;
+    text-decoration: underline;
+}
+
+
+.ne-h-explore-main-bg{
+    background-image: linear-gradient(#051405, #000000);
+}
+
+.ne-h-explore-cards-section{
+    text-overflow: hidden;
+    overflow-x: scroll;
+}
+
+/*NE Horizon Explore Sub card Section Styling*/
+  .book {
+    position: relative;
+    border-radius: 10px;
+    width: 330px;
+    height: 420px;
+    background-color: rgb(9, 12, 9);
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .ne-h-explore-card-descp{
+    font-size: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    text-align: right;
+  }
+
+  .ne-h-explore-card-icon{
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .ne-h-explore-cards-name{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    background-color: #00000080;
+    width: 100%;
+    text-align: center;
+  }
+
+  #ne-h-explore-card-details{
+    font-size: 17px;
+    text-decoration: underline;
+  }
+
+  .ne-h-explore-cards-ar{
+    background-image: url('https://i.pinimg.com/236x/aa/9d/6d/aa9d6d0831ad3ddf3cec7f4f52729350.jpg');
+    background-size: cover;
+  }
+
+  .ne-h-explore-cards-as{
+    background-image: url('https://i.pinimg.com/236x/4d/27/11/4d2711c8b94261449d7a432c3244490a.jpg');
+    background-size: cover;
+  }
+
+  .ne-h-explore-cards-mg{
+    background-image: url('https://i.pinimg.com/236x/6d/f2/5d/6df25d0e8091a015c6d1184b97abbbb3.jpg');
+    background-size: cover;
+  }
+
+  .ne-h-explore-cards-ma{
+    background-image: url('https://i.pinimg.com/236x/76/6b/1c/766b1cc19b0a64602fb6922c8f6b9fcb.jpg');
+    background-size: cover;
+  }
+
+  .ne-h-explore-cards-mi{
+    background-image: url('https://i.pinimg.com/736x/f0/89/c9/f089c9a645b2dafa7b4e19153277837c.jpg');
+    background-size: cover;
+  }
+
+  .ne-h-explore-cards-na{
+    background-image: url('https://i.pinimg.com/236x/e3/1e/98/e31e984ae5bd4bd48ac0a70ba7acf879.jpg');
+    background-size: cover;
+  }
+
+  .ne-h-explore-cards-si{
+    background-image: url('https://i.pinimg.com/236x/31/60/f7/3160f7a069782738c015526f6e7f62b9.jpg');
+    background-size: cover;
+  }
+
+/*NE Horizon Why Us Section Styling*/
+.card-ws {
+  height: 250px;
+  background: transparent;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px  rgba(250, 234, 234, 0.705);
+  font-size: 33px;
+  font-weight: 900;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.card-ws:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 5px  rgba(250, 234, 234, 0.705);
+  background: transparent;
+}
+
+.first-content-ws {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.card-ws:hover .first-content-ws {
+  height: 0px;
+  opacity: 0;
+}
+
+.second-content-ws {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card-ws:hover .second-content-ws {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+#ne-h-why-us-section-card-para{
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+/*NE Horizon Review Section Styling*/
+.card-container {
+    width: 220px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+  
+  .card .front-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card .front-content {
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 1;
+    background: linear-gradient(-45deg, #91d39a 0%, #233326 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background: linear-gradient(-45deg, #5d7e62 0%, #1f2b21 100% );
+    color: #050505;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 5px;
+    pointer-events: none;
+    transform: translateX(-96%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .card .content .heading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .card:hover .content {
+    transform: translateY(0);
+  }
+  
+  .card:hover .front-content {
+    transform: translateX(-30%);
+  }
+  
+  .card:hover .front-content p {
+    opacity: 0;
+  }
+  
+  
+  
+  /*NE Horizon Contact Us Section Styling*/
+  .ne-h-contact-us-section-para{
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+  }
+
+  .ne-h-contact-us-section-icons{
+    font-size: 11px;
+    color: #F0F8FF;
+    cursor: pointer;
+  }
+
+  .ne-h-contact-us-section-list{
+    list-style: none;
+  }
+
+  .ne-h-contact-us-section-items{
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+    margin: 11px;
+  }
+
+
+/*NE Horizon Tour Package Section Styling */
+.ne-h-tour-package-book-btn{
+  background-color: transparent;
+  font-size: 17px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  font-family: "Josefin Sans", sans-serif;
+  color: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: 33px;
+  width: 111px;
+}
+
+.ne-h-tour-section-banner-para{
+  font-size: 19px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #F0F8FF;
+}
+
+.ne-h-tour-main-image{
+  height: 50%;
+  width: 100%;
+}
+
+.ne-h-tour-package-selection-div{
+  text-overflow: hidden;
+  overflow-x: scroll;
+}
+
+.ne-h-tour-details-head{
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  text-decoration: underline;
+}
+
+.ne-h-tour-details-items{
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+
+
+
+
+
+
+/*NE Horizon JS effect styling for Tour Package sections*/
+
+.ne-h-tour-package-btn{
+  background-color: transparent;
+  font-size: 17px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 7px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #F0F8FF;
+}
+
+.ne-h-tour-select-btn-effect{
+  background-color: #F0F8FF;
+  color: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  border-style: solid;
+  border-color: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+}
+
+.ne-h-tour-select-card-effect{
+  background-color: #F0F8FF;
+}
+
+/*NE Horizon Tour Package Section Card Styling */
+/*Card design*/
+
+.ne-h-tour-p-card {
+  width: 100%;
+  height: 355px;
+  background: lightgray;
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.ne-h-tour-p-card > .ne-h-tour-p-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: clip-path 0.6s;
+  z-index: 1;
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-1 {
+  clip-path: polygon(0% 0%, 75% 0%, 0% 75%);
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-1:hover {
+  clip-path: polygon(0% 0%, 170% 0%, 0% 170%);
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-1:has(~ .ne-h-tour-p-card-2:hover),
+.ne-h-tour-p-card .ne-h-tour-p-card-1:has(~ .ne-h-tour-p-card-3:hover) {
+  clip-path: polygon(0% 0%, 15% 0%, 0% 15%);
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-2 {
+  z-index: 0;
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-3 {
+  clip-path: polygon(25% 100%, 100% 25%, 100% 100%);
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-3:hover {
+  clip-path: polygon(-70% 100%, 100% -70%, 100% 100%);
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-1:hover ~ .ne-h-tour-p-card-3,
+.ne-h-tour-p-card .ne-h-tour-p-card-2:hover ~ .ne-h-tour-p-card-3 {
+  clip-path: polygon(85% 100%, 100% 85%, 100% 100%);
+}
+
+/*Optional styles*/
+.ne-h-tour-p-card {
+  font: 30px Arial, Helvetica, sans-serif;
+}
+
+.ne-h-tour-p-card > .ne-h-tour-p-child {
+  /*If using background image on card children*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.6s;
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-1 {
+  
+  color: white;
+  padding-top: 30%;
+  padding-left: 20%;
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-1:hover {
+  padding-top: 65%;
+  padding-left: 48%;
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-2 {
+  padding-top: 65%;
+  padding-left: 48%;
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-3 {
+  padding-top: 100%;
+  padding-left: 76%;
+  
+}
+
+.ne-h-tour-p-card .ne-h-tour-p-card-3:hover {
+  padding-top: 65%;
+  padding-left: 48%;
+}
+
+
+/* Custom scrollbar styles for WebKit browsers */
+  body::-webkit-scrollbar {
+    height: 2px; /* Height of the horizontal scrollbar */
+    width: 2px;
+}
+body::-webkit-scrollbar-track {
+    background: #0e0e0e; /* Color of the scrollbar track */
+}
+body::-webkit-scrollbar-thumb {
+    background: #202b20; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners for the scrollbar handle */
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #202b20; /* Color of the scrollbar handle on hover */
+}
+
+/* Custom scrollbar styles for Firefox */
+body {
+    scrollbar-color: #202b20 #0e0d0d; /* thumb color track color */
+    scrollbar-width: thin; /* Size of the scrollbar */
+}

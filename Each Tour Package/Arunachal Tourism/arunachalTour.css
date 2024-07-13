@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lilita+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+
+
+  
+  #Ne-h-ar-t1-i1{
+    background-image: url("https://i.pinimg.com/564x/c0/2d/70/c02d706f210b8e56ed2724fee5d39682.jpg");
+  }
+  #Ne-h-ar-t1-i2{
+    background-image: url("https://i.pinimg.com/564x/e9/14/a4/e914a4d47e203eaa528dd6a2d0a53313.jpg");
+  }
+  #Ne-h-ar-t1-i3{
+    background-image: url("https://i.pinimg.com/564x/e3/53/e5/e353e51f62ff62061b2621baeac044e4.jpg");
+  }
+
+  #Ne-h-ar-t2-i1{
+    background-image: url("https://i.pinimg.com/564x/4b/c9/3e/4bc93e1b8bcf9e33900cbbe0dc61019f.jpg");
+  }
+  #Ne-h-ar-t2-i2{
+    background-image: url("https://i.pinimg.com/564x/63/dc/67/63dc678f05c4467d1f9b7fc7ab3a949c.jpg");
+  }
+  #Ne-h-ar-t2-i3{
+    background-image: url("https://i.pinimg.com/564x/88/ed/44/88ed4452c31c8012692ca727df8a619e.jpg");
+  }
+
+  #Ne-h-ar-t3-i1{
+    background-image: url("https://i.pinimg.com/564x/b7/47/9f/b7479f98f40b2126d53c8ca35726da34.jpg");
+  }
+  #Ne-h-ar-t3-i2{
+    background-image: url("https://i.pinimg.com/564x/75/8a/68/758a68da6f74902bd7fb4df47bfcd797.jpg");
+  }
+  #Ne-h-ar-t3-i3{
+    background-image: url("https://i.pinimg.com/564x/f0/2d/02/f02d02e71a04af5957c4c29376af276a.jpg");
+  }
+
+  #Ne-h-ar-t4-i1{
+    background-image: url("https://i.pinimg.com/564x/41/49/e3/4149e3ad87fef937645328ba41048967.jpg");
+  }
+  #Ne-h-ar-t4-i2{
+    background-image: url("https://i.pinimg.com/564x/60/e6/8d/60e68d00c36e3cc00b1770a52c22c888.jpg");
+  }
+  #Ne-h-ar-t4-i3{
+    background-image: url("https://i.pinimg.com/736x/e6/40/67/e64067a14aa8455c488f130977dbccc2.jpg");
+  }
+
+  #Ne-h-ar-t5-i1{
+    background-image: url("https://i.pinimg.com/564x/18/0a/64/180a6470e342110d3bf65e00fda9a6fc.jpg");
+  }
+  #Ne-h-ar-t5-i2{
+    background-image: url("https://i.pinimg.com/564x/fc/2a/c2/fc2ac2535c6b16ab5b609c9b364117f3.jpg");
+  }
+  #Ne-h-ar-t5-i3{
+    background-image: url("https://i.pinimg.com/564x/e5/74/82/e57482b6d711e52e0ab60e65336b506b.jpg");
+  }
+
+  #Ne-h-ar-t6-i1{
+    background-image: url("https://i.pinimg.com/564x/b1/08/25/b108254d9cc4000aa896377d600e7fe8.jpg");
+  }
+  #Ne-h-ar-t6-i2{
+    background-image: url("https://i.pinimg.com/564x/41/97/02/419702254f58fb596299232ea79b45df.jpg");
+  }
+  #Ne-h-ar-t6-i3{
+    background-image: url("https://i.pinimg.com/564x/79/69/cf/7969cf3b9792609eb6b327a0e91d8190.jpg");
+  }
+
+  
+  /*NE Horizon JS effect styling for Tour Package sections*/
+
+  .ne-h-tour-package-btn{
+    background-color: transparent;
+    font-size: 17px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-radius: 7px;
+    font-family: "Josefin Sans", sans-serif;
+    color: #F0F8FF;
+  }
+
+  .ne-h-tour-select-btn-effect{
+    background-color: #F0F8FF;
+    color: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    border-color: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+  }
+
+  .ne-h-tour-select-card-effect{
+    background-color: #F0F8FF;
+  }
